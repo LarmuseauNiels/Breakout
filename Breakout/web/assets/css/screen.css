@@ -1,0 +1,373 @@
+
+/*Basic elements*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+
+body{
+  /*background: #030321;*/
+  font-family: Arial;
+  background-image: url("../images/space-wallpaper-hd-12.jpg");
+  background-position-y: -228px;
+  background-position-x: -586px;
+}
+
+img
+{
+    height: 52px;
+    width: 260px;
+}
+h1
+{
+    font-size: 5rem;
+    text-align: center;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+a{
+    color:#15d880;
+}
+p{
+    color:white;
+}
+em{
+    color:white;
+}
+
+form input[type="text"], form input[type="password"], form input[type="email"]{
+        padding:12px;
+    border:2px white solid;
+    border-radius:25px;
+    width:260px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align:center;
+}
+form input[type="text"]:focus, form input[type="password"]:focus,form input[type="email"]:focus{
+    width:380px;
+}
+
+form input {
+    font-size: 1.3vmax;
+    background-color: transparent;
+    color: white;
+    display: block;
+    outline: none;
+    -webkit-transition-duration: 0.5s;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+form input[type="submit"]{
+    margin-top:7%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border:none;
+    border-bottom:2px solid white;
+    
+    box-shadow: inset 0 0 0 0 white;
+  
+}
+form input[type="submit"]:hover{
+    cursor:pointer;
+    color: black;
+      box-shadow: inset 0 -100px 0 0 white;
+}   
+
+/*Classes*/
+
+.menuButton
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius:5px;
+    letter-spacing: 2px;
+    background-color: rgba(253, 253, 253, 0.31);
+    border:2px solid white;
+    width: 18vmax;
+    padding: 15px;
+    color: white;
+    font-size:1.5vmax;
+    transition: all 0.2s ease-in-out;
+    outline:none;
+    text-transform: uppercase;
+}
+.menuButton:hover{
+    transition: all 0.2s ease-in-out;
+    transform:scale(1.2);
+    box-shadow:0 0 10px white;
+    cursor: pointer;
+}
+
+.logout{
+    color:white;
+}
+.forgotPassword{
+    padding-left: 23%;
+}
+.error{
+    color:red;
+    display: block;
+}
+/*ID's*/
+
+#password
+{
+    
+}
+#inlogform,#inlogsocialmedia
+{
+    width: 50%;
+}
+#inlogform{
+    float: left;
+}
+#inlogsocialmedia{
+    float:right;
+    padding-top: 1%;
+}
+#logout
+{
+    margin-left: 20%;
+}
+#Register
+{
+    height: auto;
+}
+#google{
+    width: 268px;
+    height: 57px;
+    display: block;
+}
+#facebook{
+   padding-left:3px; 
+}
+#highscoresText{
+    background-image: url("../images/highscoreIconTest2png.png"), url("../images/highscoreIconTest2png.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position: 32% -7px, 68% -7px;
+}
+#tabs{
+    width:60%;
+    height: 50%;
+    padding-bottom: 15%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(200,200,200,0.5);
+}
+#tabs ul{
+    background: transparent;
+    border:none;
+}
+#tabs .ui-tabs-nav { 
+    height: 2.35em; 
+    text-align: center; 
+} 
+#tabs .ui-tabs-nav li { 
+    display: inline-block; 
+    float: none; 
+    top: 0px; 
+    margin: 0em; 
+    padding-bottom: 0px; 
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
+a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: 1px solid #AAA;
+    background: #454545;
+    font-weight: normal;
+    color: #ffffff;
+}
+*:focus{
+    
+    outline: none;
+}
+/*Container tags*/
+header,footer
+{
+    height: auto;
+    width: 100%;
+    line-height: 100px;
+}
+
+
+main
+{
+    width: 60%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*specific tags*/
+
+img[alt="user"],img[alt="star"],img[alt="shop"]
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 20%;
+    margin-right: 3px;
+}
+img[alt="logout"]
+{
+    height: 30px;
+    width: 100px;
+    top:95%;
+}
+img[alt="pageconstruction"]
+{
+    margin-left: 35%;
+}
+img[alt="shop"]
+{
+    height: 40px;
+    width: 40px;
+}
+ul
+{
+  text-align: -webkit-center;  
+}
+
+li
+{
+   margin-bottom: 5px;
+}
+
+h3, h2, h1{
+    color: white;
+}
+.register h2{
+    text-align: center;
+}
+
+table{
+    font-size: 2rem;
+    width:100%;
+    color:#15d880;
+}
+
+th{
+    height:50px;
+    text-align: left;
+    color:#454545;
+}
+
+td{
+    padding-bottom: 1%;
+    padding-right: 1%;
+    color:#c5c5c5;
+}
+/* titel font */
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 80%;
+    height: 15%;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #15d880;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #999;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #888;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #777;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FFF;
+	animation-delay: -5s;
+}
+
+.key {
+  border-radius: .3em;
+  border: 1px solid #aaa;
+  padding: 20px 30px 20px;
+  min-width: 1.0em;
+  max-width: 200px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.code {
+  display: block;
+  font-size: .5em;
+  margin-top: .2em;
+}
+
+
+#player1,#player2{
+    border-radius: .4em;
+  border: 1px solid #aaa;
+  padding: 30px 30px 30px;
+  width: 27%;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 3%;
+  margin-top: 5px;
+  float: left;
+}
+.homeButton{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#home-icon-silhouette{
+    width: 64px;
+}
+
+#player2{
+    margin-left: 3%;
+  margin-right: 15%;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
